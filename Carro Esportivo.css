@@ -1,0 +1,127 @@
+#container {
+    margin: 0px;
+}
+.roda {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2C2922;
+    position: relative;
+    left: 275px;
+    top: 500px;
+}
+.espaço {
+    width: 100px;
+        height: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border: 5px solid #000;
+        border-bottom: none;
+        position: relative;
+        left: 270px;
+        top: 400px;
+}
+.espaço2 {
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 5px solid #000;
+    border-bottom: none;
+    position: relative;
+    left: 620px;
+    top: 245px;
+}
+.roda2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2C2922;
+    position: relative;
+    left: 625px;
+    top: 345px;
+}
+.meio {
+    height: 100px;
+    width: 634px;
+    background-color: #ff0000;
+    position: relative;
+    left: 200px;
+    top: 145px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 50%;
+    border-bottom: 7px solid #000;
+    z-index: -1;
+}
+.farol {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-top-right-radius: 50px;
+    border-left: none;
+    border-bottom: none;
+    border-right: 5px solid #ccc;
+    position: relative;
+    left: 800.5px;
+    top: 69px;
+    z-index: 1;
+}
+.janela {
+    width: 230px;
+    height: 70px;
+    background-color: #333;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 30px;
+    border-bottom: none;
+    border-right: 5px solid #ccc;
+    position: relative;
+    left: 380px;
+    top: -53px;
+}
+.traseira {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #ff0000;
+    border-left: 60px solid transparent;
+    border-right: 0 solid transparent;
+    position: relative;
+    left: 200px;
+    top: -110px;
+}
+.teto {
+    width: 400px;
+    height: 180px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    position: relative;
+    left: 260px;
+    top: -235px;
+    z-index: -2;
+}
+.trasEteto {
+    width: 60px;
+    height: 50px;
+    background-color: #ff0000;
+    position: relative;
+    left: 230px;
+    top: -390px;
+}
+#lugarVoltar {
+    display: flex;
+    justify-content: end;
+}
+#Voltar {
+    width: 140px;
+    height: 60px;
+    background-color: blue;
+    border: 3px solid #000;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}

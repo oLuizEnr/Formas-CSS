@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+}
+#container {
+ margin: 0px;
+ display: flex;
+ justify-content: center;
+}
+#container p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#container h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#eixos {
+    width: 415px;
+    height: 415px;
+    background-color: transparent;
+    border-left: 15px solid #000;
+    border-bottom: 15px solid #000;
+    position: relative;
+    top: 20px
+}
+#setaabcissa {
+    width: 0;
+    height: 0;
+    border-left: 30px solid #000;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: relative;
+    top: 427px;
+}
+#setaordenada {
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid #000;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: relative;
+    left: -467px;
+}
+#retangulo1 {
+    width: 50px;
+    height: 340px;
+    background-color: #00b7ff;
+    position: relative;
+    left: -430px;
+    top: 95px;
+}
+#retangulo2 {
+    width: 50px;
+    height: 250px;
+    background-color: #00b7ff;
+    position: relative;
+    left: -390px;
+    top: 185px;
+}
+#retangulo3 {
+    width: 50px;
+    height: 200px;
+    background-color: #00b7ff;
+    position: relative;
+    left: -350px;
+    top: 235px;
+}
+#retangulo4 {
+    width: 50px;
+    height: 300px;
+    background-color: #00b7ff;
+    position: relative;
+    left: -310px;
+    top: 135px;
+}
+.divord20 {
+    width: 20px;
+    height: 10px;
+    background-color: #000;
+    position: relative;
+    left: -692px;
+    top: 90px;
+}
+.divord40 {
+    width: 20px;
+    height: 10px;
+    background-color: #000;
+    position: relative;
+    left: -712px;
+    top: 160px;
+}
+.divord60 {
+    width: 20px;
+    height: 10px;
+    background-color: #000;
+    position: relative;
+    left: -732px;
+    top: 230px;
+}
+.divord80 {
+    width: 20px;
+    height: 10px;
+    background-color: #000;
+    position: relative;
+    left: -752px;
+    top: 300px;
+}
+.divord100 {
+    width: 20px;
+    height: 10px;
+    background-color: #000;
+    position: relative;
+    left: -772px;
+    top: 370px;
+}
+.divabcver {
+    width: 10px;
+    height: 20px;
+    background-color: #000;
+    position: relative;
+    left: -710px;
+    top: 440px;
+}
+.divabcout {
+    width: 10px;
+    height: 20px;
+    background-color: #000;
+    position: relative;
+    left: -630px;
+    top: 440px; 
+}
+.divabcinv {
+    width: 10px;
+    height: 20px;
+    background-color: #000;
+    position: relative;
+    left: -550px;
+    top: 440px; 
+}
+.divabcpri {
+    width: 10px;
+    height: 20px;
+    background-color: #000;
+    position: relative;
+    left: -470px;
+    top: 440px; 
+}
+#pos20 {
+    position: relative;
+    left: -1025px;
+    top: 370px;
+}
+#pos40 {
+    position: relative;
+    left: -1038px;
+    top: 300px;
+}
+#pos60 {
+    position: relative;
+    left: -1052px;
+    top: 230px;
+}
+#pos80 {
+    position: relative;
+    left: -1065px;
+    top: 160px;
+}
+#pos100{
+    position: relative;
+    left: -1085px;
+    top: 90px;
+}
+#posver {
+    position: relative;
+    left: -760px;
+    top: 460px;
+}
+#posout {
+    position: relative;
+    left: -710px;
+    top: 460px;
+}
+#posinv {
+    position: relative;
+    left: -660px;
+    top: 460px;
+}
+#pospri {
+    position: relative;
+    left: -620px;
+    top: 460px;
+}
+#posver {
+    position: relative;
+
+}
+#poslegven {
+    position: relative;
+    left: -1110px;
+    top: 10px;
+}
+#poslegest {
+    position: relative;
+    left: -675px;
+    top: 458px;
+}
+#lugarVoltar {
+    display: flex;
+    justify-content: end;
+}
+#Voltar {
+    width: 140px;
+    height: 60px;
+    background-color: blue;
+    border: 3px solid #000;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}

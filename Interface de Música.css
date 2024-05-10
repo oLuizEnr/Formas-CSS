@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#borda {
+    width: 350px;
+    height: 650px;
+    background-color: #000;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+#tela {
+    width: 320px;
+    height: 600px;
+    background: linear-gradient(#aa2bff, #800ecc);
+    border-radius: 20px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+#tela p {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+#botaoponto {
+    position: relative;
+    left: 285px;
+    top: 35px
+}
+#ponto1 {
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 100px;
+    position: relative;
+    left: 0;
+    top: 0; 
+}
+#ponto2 {
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 100px;
+    position: relative;
+    left: 0;
+    top: 1px; 
+}
+#ponto3 {
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 100px;
+    position: relative;
+    left: 0;
+    top: 2px; 
+}
+#botaovolta {
+    position: absolute;
+    width: 15px;
+    padding: 20px;
+    background-color: #fff;
+    clip-path: polygon(50% 10%, 12% 50%, 50% 90%, 0% 50%);
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+#pauseRed {
+    width: 40px;
+    height: 40px;
+    background-color: #800ecc;
+    border: 3px solid #ffd000;
+    border-radius: 100px;
+    position: relative;
+    left: 140px;
+    top: 465px;
+    cursor: pointer;
+}
+#pauseSim {
+    width: 10px;
+    height: 20px;
+    background-color: transparent;
+    border-left: 3px solid #ffd000;
+    border-right: 3px solid #ffd000;
+    position: relative;
+    left: 12px;
+    top: 10px;
+    cursor: pointer;
+}
+#proxMusicaB {
+    width: 0;
+    height: 0;
+    border-left: 34px solid #ffd000;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    position: relative;
+    left: 220px;
+    top: 425px;
+    cursor: pointer;
+}
+#proxMusicaF {
+    width: 4px;
+    height: 34px;
+    background-color: #ffd000;
+    border-radius: 30px;
+    position: relative;
+    left: -2px;
+    top: -17px;
+    cursor: pointer;
+}
+#anteMusicaB {
+    width: 0;
+    height: 0;
+    border-right: 34px solid #ffd000;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    position: relative;
+    left: 70px;
+    top: 390px;
+    cursor: pointer;
+}
+#anteMusicaF {
+    width: 4px;
+    height: 34px;
+    background-color: #ffd000;
+    border-radius: 30px;
+    position: relative;
+    left: -2px;
+    top: -17px;
+    cursor: pointer;
+}
+#barraprogresso {
+    width: 230px;
+    height: 10px;
+    border: 4px solid #fff;
+    border-radius: 30px;
+    position: relative;
+    left: 40px;
+    top: 315px;
+}
+#japrogresso {
+    width: 30px;
+    height: 10px;
+    background-color: #ffd000;
+    border-radius: 30px;
+    position: relative;
+    left: -1px;
+    top: 0;
+}
+#bolaprogresso {
+    width: 15px;
+    height: 15px;
+    background-color: #ffd000;
+    border-radius: 100px;
+    position: relative;
+    left: 15px;
+    top: -12.5px;
+}
+#capaMusica {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+    top: -100px;
+}
+#txtalbum {
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    top: -110px;
+}
+#txtmusica {
+    font-size: 25px;
+    position: relative;
+    left: 115px;
+    top: -90px;
+}
+#txtautor {
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    top: -85px;
+}
+#lugarVoltar {
+    display: flex;
+    justify-content: end;
+}
+#Voltar {
+    width: 140px;
+    height: 60px;
+    background-color: blue;
+    border: 3px solid #000;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
