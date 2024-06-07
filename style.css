@@ -1,6 +1,7 @@
 #CarroEsportivo {
     width: 140px;
     height: 60px;
+    color: #fff;
     background-color: #ff0000;
     border: 3px solid #000;
     border-radius: 20px;
@@ -11,6 +12,7 @@
 #RobôFuturista {
     width: 140px;
     height: 60px;
+    color: #000;
     background-color: #a5c2d6;
     border: 3px solid #000;
     border-radius: 20px;
@@ -21,6 +23,7 @@
 #PlataformaDeMúsica {
     width: 140px;
     height: 60px;
+    color: #ffd000;
     background-color: #800ecc;
     border: 3px solid #000;
     border-radius: 20px;
@@ -31,6 +34,7 @@
 #GráficoDeBarras {
     width: 140px;
     height: 60px;
+    color: #000;
     background-color: #00b7ff;
     border: 3px solid #000;
     border-radius: 20px;
@@ -41,6 +45,7 @@
 #PadrãoDecorativo {
     width: 140px;
     height: 60px;
+    color: #000;
     background-color: #34d376;
     border: 3px solid #000;
     border-radius: 20px;

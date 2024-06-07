@@ -206,20 +206,17 @@
     left: -675px;
     top: 458px;
 }
-#lugarVoltar {
-    display: flex;
-    justify-content: end;
-}
 #Voltar {
-    width: 80px;
-    height: 40px;
+    padding: 25px 35px;
+    color: #fff;
     background-color: blue;
     border: 3px solid #000;
     border-radius: 20px;
     font-weight: bold;
     font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-decoration: none;
     margin-top: 0;
+    position: absolute;
+    right: 2vh;
+    top: 2vh;
 }
