@@ -17,7 +17,7 @@ nav {
     height: 40px;
     background-color: #fff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 nav a {
     text-decoration: none;
@@ -109,8 +109,8 @@ header a:hover {
     justify-content: end;
 }
 #Voltar {
-    width: 140px;
-    height: 60px;
+    width: 80px;
+    height: 40px;
     background-color: blue;
     border: 3px solid #000;
     border-radius: 20px;
